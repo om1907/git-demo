@@ -22,13 +22,19 @@ git checkout -b newBranch     --        to create a new branch
 
 git checkout branchName       --        to navigate to different branch
 
-git branch -d branchName      --        to delete the branch
+git branch -D branchName      --        to delete the branch
 
 git diff branchName           --        to check the diffrences in two different branch
 
+git merge branchName          --        to merge to different branch
 
+git reset <file name>         --        to reset back if any file has been added which are not required by one step
 
+git reset                     --        to reset back if multiple file has been added which are not required by one step 
 
+git reset Head~1              --        to reset back by one commit 
 
-  
+git reset <commit hash>       --        to reset back to that given commit
+
+git reset --hard<commit hash> --        to reset back to that given commit with code also changed in local
 
