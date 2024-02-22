@@ -22,7 +22,7 @@ git checkout -b newBranch     --        to create a new branch
 
 git checkout branchName       --        to navigate to different branch
 
-git branch -d branchName      --        to delete the branch
+git branch -D branchName      --        to delete the branch
 
 git diff branchName           --        to check the diffrences in two different branch
 
