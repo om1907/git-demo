@@ -1,0 +1,34 @@
+git status                    --        to check the status of the current project
+
+git add .                     --        to add any file when updated
+
+git commit -m 'any message'   --        to commit all the changes made
+
+git push origin main          --        to push the all the new commit into the github
+
+git pull origin main          --        to pull all the new updates from the github to the local  
+
+git ls                        --        to check the different file in the current directory
+
+git ls -a                     --        to check the different files event the hidden one in the current directory
+
+git remote -v                 --        to verify remote
+
+git branch                    --        to check on which branch we are working
+
+git branch -M newBranchName   --        to rename the branch
+
+git checkout -b newBranch     --        to create a new branch
+
+git checkout branchName       --        to navigate to different branch
+
+git branch -d branchName      --        to delete the branch
+
+git diff branchName           --        to check the diffrences in two different branch
+
+
+
+
+
+  
+
