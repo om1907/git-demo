@@ -5,7 +5,7 @@ const mongoose=require('mongoose');
 const PORT=process.env.PORT||3000;
 
 app.get('/',(req,res)=>{
-    res.send('This is a git demo project');
+    res.send('This is feature2 branch');
 })
 
 app.listen(PORT,()=>{
